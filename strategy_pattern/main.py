@@ -2,12 +2,13 @@
 import sys
 print(sys.path)
 
-from strategy_pattern.ducks.RubberDuck import *
-from strategy_pattern.behaviors.concrete_behaviors import FlyRocketPower, FlyWithWings, NoFly
-
-# create a behavior
+from strategy_pattern.ducks import RubberDuck
+from strategy_pattern.behaviors.concrete_behaviors import FlyRocketPower, Sweal
+# declare behaviors
 fly_rocket = FlyRocketPower()
+skweal_behavior = Sweal()
 
 # create a rubber duck and change its behaviors
-rubberDuck = RubberDuck(fly_rocket)
+rubberDuck = RubberDuck(fly_rocket, Sweal)
 rubberDuck.fly()
+rubberDuck.quack()

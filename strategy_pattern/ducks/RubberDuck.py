@@ -1,5 +1,5 @@
 # this defines a rubber duck class
-from . import Duck
+from strategy_pattern.ducks import Duck
 
 
 class RubberDuck(Duck):
