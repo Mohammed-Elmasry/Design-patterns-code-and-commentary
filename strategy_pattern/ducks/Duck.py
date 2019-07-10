@@ -1,7 +1,7 @@
 # this is the definition of the Duck class
 
 
-class Duck:
+class DuckBase:
 
     quack_behavior = None
     fly_behavior = None

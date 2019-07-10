@@ -1,7 +1,7 @@
 # define the fly behavior abstract class
 
 
-class FlyBehavior:
+class Fly_Behavior:
 
     def fly(self):
         pass

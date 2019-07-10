@@ -1,7 +1,7 @@
 # this is a definition of the rocket flying
-from strategy_pattern.behaviors import FlyBehavior
+from strategy_pattern.behaviors.FlyBehavior import Fly_Behavior
 
-class FlyRocketPowered(FlyBehavior):
+class FlyRocketPowered(Fly_Behavior):
 
 
     def fly(self):

@@ -1,9 +1,9 @@
 # define the sound of a rubber duck
-from strategy_pattern.behaviors.QuackBehavior import QuackBehavior
+from strategy_pattern.behaviors.QuackBehavior import Quack_Behavior
 
 
-class Skweal(QuackBehavior):
+class Skweal(Quack_Behavior):
 
 
-    def Quack(self):
+    def quack(self):
         print("skweal skweal")

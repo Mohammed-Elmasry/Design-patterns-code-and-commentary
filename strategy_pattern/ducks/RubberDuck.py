@@ -1,8 +1,8 @@
 # this defines a rubber duck class
-from strategy_pattern.ducks import Duck
+from strategy_pattern.ducks.Duck import DuckBase
 
 
-class RubberDucky(Duck):
+class RubberDucky(DuckBase):
 
 
     quack_behavior = None

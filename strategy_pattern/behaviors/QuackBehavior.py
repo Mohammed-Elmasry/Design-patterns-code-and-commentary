@@ -1,7 +1,7 @@
 # this is the definition of the abstract quack behavior class
 
 
-class QuackBehavior:
+class Quack_Behavior:
 
-    def quack(self):
+    def quac_k(self):
         pass
