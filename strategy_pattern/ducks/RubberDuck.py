@@ -17,3 +17,10 @@ class RubberDucky(DuckBase):
 
     def quack(self):
         self.quack_behavior.quack()
+
+
+    def set_quack_behavior(self, quack_behavior):
+        self.quack_behavior = quack_behavior
+
+    def set_fly_behavior(self, fly_behavior):
+        self.fly_behavior = fly_behavior
