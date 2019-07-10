@@ -1,6 +1,6 @@
 # this file defines the flyWithWings concrete class
 
-from ..FlyBehavior import FlyBehavior
+from strategy_pattern.behaviors import FlyBehavior
 
 
 class FlyWithWings(FlyBehavior):

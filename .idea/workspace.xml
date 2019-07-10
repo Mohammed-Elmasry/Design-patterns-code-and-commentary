@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a4faee-9b5f-4199-906f-3f656d2b31fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/FlyRocketPower.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/FlyRocketPower.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/FlyWithWings.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/FlyWithWings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/FlyRocketPower.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="46">
@@ -80,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/FlyWithWings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            <state relative-caret-position="87">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -115,7 +115,6 @@
       <list>
         <option value="$PROJECT_DIR$/strategy_pattern/behaviors/FlyBehavior.py" />
         <option value="$PROJECT_DIR$/strategy_pattern/behaviors/QuackBehavior.py" />
-        <option value="$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/FlyWithWings.py" />
         <option value="$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/NoFly.py" />
         <option value="$PROJECT_DIR$/strategy_pattern/ducks/Duck.py" />
         <option value="$PROJECT_DIR$/strategy_pattern/ducks/__init__.py" />
@@ -127,6 +126,7 @@
         <option value="$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/Skweal.py" />
         <option value="$PROJECT_DIR$/strategy_pattern/main.py" />
         <option value="$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/FlyRocketPower.py" />
+        <option value="$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/FlyWithWings.py" />
       </list>
     </option>
   </component>
@@ -253,13 +253,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/FlyWithWings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/NoFly.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -325,6 +318,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_pattern/behaviors/concrete_behaviors/FlyWithWings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
