@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a4faee-9b5f-4199-906f-3f656d2b31fb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/strategy_pattern/ducks/RubberDuck.py" beforeDir="false" afterPath="$PROJECT_DIR$/strategy_pattern/ducks/RubberDuck.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/strategy_pattern/behaviors/FlyBehavior.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +30,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/strategy_pattern/ducks/RubberDuck.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
+            <state relative-caret-position="200">
+              <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/strategy_pattern/behaviors/FlyBehavior.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
@@ -57,6 +66,7 @@
         <option value="$PROJECT_DIR$/strategy_pattern/main.py" />
         <option value="$PROJECT_DIR$/strategy_pattern/ducks/Duck.py" />
         <option value="$PROJECT_DIR$/strategy_pattern/ducks/RubberDuck.py" />
+        <option value="$PROJECT_DIR$/strategy_pattern/behaviors/FlyBehavior.py" />
       </list>
     </option>
   </component>
@@ -83,6 +93,12 @@
               <item name="designPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designPatterns" type="b2602c69:ProjectViewProjectNode" />
+              <item name="designPatterns" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="behaviors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designPatterns" type="b2602c69:ProjectViewProjectNode" />
@@ -164,7 +180,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/strategy_pattern/ducks/RubberDuck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
+        <state relative-caret-position="200">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/strategy_pattern/behaviors/FlyBehavior.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
