@@ -4,7 +4,7 @@ from strategy_pattern.ducks.RubberDuck import RubberDucky
 from strategy_pattern.behaviors.concrete_behaviors.FlyRocketPower import FlyRocketPowered
 from strategy_pattern.behaviors.concrete_behaviors.NoFly import FlyNoWay
 from strategy_pattern.behaviors.concrete_behaviors.Skweal import Skweal
-
+from strategy_pattern.behaviors.concrete_behaviors.Scream import Scream
 # declare behaviors
 fly_rocket = FlyRocketPowered()
 skweal_behavior = Skweal()
@@ -23,4 +23,7 @@ myRubberDuck.fly()
 myRubberDuck.quack()
 
 # create another kind of quack behavior and assign it to the rubber duck
-
+scream = Scream()
+myRubberDuck.set_quack_behavior(scream)
+myRubberDuck.fly()
+myRubberDuck.quack()
