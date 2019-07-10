@@ -1,7 +1,9 @@
 # this is the main module that'll run the strategy design pattern demo
+import sys
+print(sys.path)
 
-from .ducks.RubberDuck import *
-from .behaviors.concrete_behaviors import FlyRocketPower, FlyWithWings, NoFly
+from strategy_pattern.ducks.RubberDuck import *
+from strategy_pattern.behaviors.concrete_behaviors import FlyRocketPower, FlyWithWings, NoFly
 
 # create a behavior
 fly_rocket = FlyRocketPower()
