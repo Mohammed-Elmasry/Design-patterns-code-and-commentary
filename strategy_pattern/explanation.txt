@@ -1,0 +1,44 @@
+This file contains detailed description to the "Strategy design pattern"
+
+Strategy Design Pattern
+
+>>> definition: it is a design pattern that enables a client code* to be used with a varying family
+    of algorithms the do the same thing but in different way during run time; allowing for high flexibility.
+
+>>> design princples:
+    under the hood, there are a bunch of design principles that underlie the strategy design pattern.
+
+    principle #1: isolate the changing code (and encapsulate it) from the client code.
+    "client code": code that is not varying and will not change (based on the business logic).
+    note that by encapsulation, we mean to isolate it in an abstract class/interface by itself.
+
+    principle #2: program for an interface not a concrete implementation.
+    note that in python, there is no such a thing as the notion of interface (as in java, php, javaScript).
+    And there is no such a thing as an Abstract Class -> check the abc library and the python3 documentation
+    for more information about how to declare Abstract Base Classes ABC's.
+
+    This princple basically means that we shouldn't program our code to depend on a concrete implementation
+    of a class but we'll need to build an interface/abstract class that we put the basic logic in it and then
+    we subclass/compose objects from it and insert these concrete instances into our client code.
+
+    principle #3: favor composition over inheritance.
+    By using inheritance, classes inherit everything from their parents, but inheriting an abstraction
+    will concur to princple #2 and result ina  loosely coupled object-oriented design.
+
+    note that: programming an interface means that we'll just write "WHAT'S GOING TO HAPPEN"
+    but not "HOW IT'S GOING TO HAPPEN"
+
+
+    principle #4: strive for loosely coupled design.
+    loosely coupled classes are classes that don't have to change their behavior if another class that
+    they interact with does. so if classA and classB are loosely coupled, then a change in classA will
+    not result in a change in classB. This means that classB doesn't have to be changed every time something
+    is changed, added, or removed from classA.
+
+    This could be achieved if principles #1 and #2 were follow as much as possible.
+
+
+RULE: design principles are guidelines that must be consulted whenever we're designing an object-oriented
+system. But trying to enforce them in every line of code is practically impossible. Instead try to abide
+by them as far as possible and as much as you can. Once your oop design principles are mastered, then you'll
+identify when and how they could apply and when they wouldn't be and why as well.
