@@ -2,7 +2,7 @@
 from strategy_pattern.behaviors.QuackBehavior import QuackBehavior
 
 
-class Sweal(QuackBehavior):
+class Skweal(QuackBehavior):
 
 
     def Quack(self):

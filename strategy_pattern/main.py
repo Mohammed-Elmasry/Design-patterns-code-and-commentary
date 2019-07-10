@@ -1,14 +1,13 @@
 # this is the main module that'll run the strategy design pattern demo
-import sys
-print(sys.path)
 
-from strategy_pattern.ducks import RubberDuck
-from strategy_pattern.behaviors.concrete_behaviors import FlyRocketPower, Sweal
+from strategy_pattern.ducks.RubberDuck import RubberDucky
+from strategy_pattern.behaviors.concrete_behaviors import FlyRocketPower, Skweal
+
 # declare behaviors
 fly_rocket = FlyRocketPower()
-skweal_behavior = Sweal()
+skweal_behavior = Skweal()
 
 # create a rubber duck and change its behaviors
-rubberDuck = RubberDuck(fly_rocket, Sweal)
-rubberDuck.fly()
-rubberDuck.quack()
+myRubberDuck = RubberDucky(fly_rocket, skweal_behavior)
+myRubberDuck.fly()
+myRubberDuck.quack()
