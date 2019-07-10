@@ -1,6 +1,6 @@
 # this file defines the noFly Behavior
 
-from ..FlyBehavior import FlyBehavior
+from strategy_pattern.behaviors import FlyBehavior
 
 class FlyNoWay(FlyBehavior):
 
